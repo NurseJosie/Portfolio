@@ -2,14 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './header'
+import Nav from './nav'
+import SectionOne from './section-one'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <h1>Josefin Persson</h1>
-
+      <Header></Header>
+      <Nav></Nav>
+      <SectionOne></SectionOne>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
