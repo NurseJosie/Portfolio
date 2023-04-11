@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import './App.css'
-import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import '../App.css'
 
-function SectionTwo() {
-  const [count, setCount] = useState(0)
+function ContactText() {
 
   return (
     <section>
-        <h3 className='text-3xl py-1'>My skills</h3>
+        <h3 className='text-3xl py-1'>Contact Me</h3>
         <p className='text-md py-2  leading-8 text-gray-800'>Lorem ipsum dolor, sit amet consectetur 
         adipisicing <span className='text-teal-500'>elit</span>. Voluptates nam commodi rem dolores
            inventore doloribus atque illum molestiae. Laboriosam placeat alias neque esse beatae sunt
@@ -58,4 +55,4 @@ function SectionTwo() {
   )
 }
 
-export default SectionTwo
+export default ContactText
