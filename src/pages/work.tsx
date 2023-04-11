@@ -5,7 +5,6 @@ function Work() {
 
   return (
     <section>
-   <h1>MY WORK</h1>
    <PortfolioText></PortfolioText>
     </section>
   )

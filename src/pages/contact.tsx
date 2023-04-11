@@ -5,7 +5,6 @@ function Contact() {
 
   return (
     <section>
-   <h1>CONTACT ME</h1>
    <ContactText></ContactText>
     </section>
   )
