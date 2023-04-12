@@ -6,7 +6,7 @@ function ContactText() {
   return (
     <section>
          <h3 className='text-3xl py-5 mx-auto text-center'>Contact Information</h3>
-        <p className='mx-auto text-center text-3xl py-2 text-teal-600 font-bold mb-5'>
+        <p className='mx-auto text-center text-3xl py-2 font-bold mb-5 text-purple-600'>
         Get in touch!
         </p>
 

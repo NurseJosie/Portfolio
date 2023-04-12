@@ -44,7 +44,7 @@ function PortfolioText() {
         </p>
         <div className='flex flex-row items-center justify-center py-3'>
         <AiFillGithub className='text-gray-800 text-3xl'/>
-        <a href="https://github.com/NurseJosie/poke-manager-react" target='_blank' className='text-center hover:font-bold'>Poké-Manager - React</a> 
+        <a href="https://github.com/NurseJosie/poke-manager-react" target='_blank' className='text-center hover:font-bold'>Poké-Manager: Build your Pokémon Team - React</a> 
         </div>
 
         <div className='flex flex-row items-center justify-center py-3'>
