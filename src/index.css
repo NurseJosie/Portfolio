@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 main {
-  background-image: url('./background.png');
+  background-image: url('./leaf.png');
+  background-size: cover;
 }
 
 
