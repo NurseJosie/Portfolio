@@ -10,7 +10,7 @@ function PortfolioText() {
         This is a selection of my previous projects so far!
         </p>
 <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-<div className='basis-1/3 flex-1 max-w-l shadow-xl p-5 rounded-xl md:p-10'>
+<div className=' bg-white basis-1/3 flex-1 max-w-l shadow-xl p-5 rounded-xl md:p-10'>
 <img src="public/tasty-tellus.png" alt="" className="mx-auto"></img>
 <p className='mx-auto text-center font-bold  text-gray-800 text-xl'>
         Tasty Tellus
@@ -37,7 +37,7 @@ function PortfolioText() {
         </div>
 </div>
 
-<div className='basis-1/3 flex-1 shadow-xl p-5 rounded-xl md:p-10'>
+<div className=' bg-white basis-1/3 flex-1 shadow-xl p-5 rounded-xl md:p-10'>
   <AiFillRocket className='mx-auto text-gray-700 text-9xl m-7'></AiFillRocket>
 <p className='mx-auto text-center font-bold pb-10 text-gray-800 text-xl'>
         More projects from my time at Campus Mölndal!

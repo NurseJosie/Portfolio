@@ -13,8 +13,8 @@ function App() {
 
 
   return (
-  <main className='bg-white px-10 md:px-20 lg:px-40'>
-    <section className='min-h-screen'>
+  <main>
+    <section className='min-h-screen '>
     <BrowserRouter>
       <Nav></Nav>
       <Routes>

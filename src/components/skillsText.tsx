@@ -15,7 +15,7 @@ function SkillsText() {
         </p>
 
         <div className='lg:flex gap-10'>
-            <div className='text-center shadow-xl p-5 rounded-xl md:p-10'>
+            <div className=' bg-white text-center shadow-xl p-5 rounded-xl md:p-10'>
             <h3 className="text-lg font-bold pt-4 pb-2">Frontend</h3>
             <p className='py-2'>With proficiency in frontend tools and a keen understanding of accessibility,
              I craft responsive web pages that prioritize user experience. Utilizing HTML, CSS, JS, TS
@@ -27,7 +27,7 @@ function SkillsText() {
             <p className="text-gray-800 py-1">Tailwind</p>
             </div>
 
-            <div className='text-center shadow-xl p-10 rounded-xl'>
+            <div className=' bg-white text-center shadow-xl p-10 rounded-xl'>
             <h3 className="text-lg font-bold pt-4 pb-2">Backend</h3>
             <p className='py-2'>As a Full Stack Developer, I employ backend technologies such as .NET, Entity Framework,
              and both relational and non-relational databases to create robust and scalable server-side solutions.
@@ -40,7 +40,7 @@ function SkillsText() {
             <p className="text-gray-800 py-1">Relational & Non-Relational Databases</p>
             </div>
 
-            <div className='text-center shadow-xl p-10 rounded-xl'>
+            <div className=' bg-white text-center shadow-xl p-10 rounded-xl'>
             <h3 className="text-lg font-bold pt-4 pb-2">Agile Methods</h3>
             <p className='py-2'>In my work as a Junior Full Stack Developer, I employ Agile Scrum Methodology to foster efficient collaboration and adaptability within the team.
              I practice closed-loop communication, ensuring clear understanding and accurate execution of tasks.
