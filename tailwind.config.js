@@ -5,8 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-
+    fontFamily: {
+      italiana: ["Italiana", "serif"],
     },
   },
   plugins: [],
