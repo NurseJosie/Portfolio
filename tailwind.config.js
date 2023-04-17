@@ -7,6 +7,7 @@ export default {
   theme: {
     fontFamily: {
       italiana: ["Italiana", "serif"],
+      playfair: ["Playfair Display", "serif"]
     },
   },
   plugins: [],
