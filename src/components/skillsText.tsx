@@ -36,9 +36,9 @@ function SkillsText() {
             <div className='m-5 flex flex-col justify-center text-center bg-white p-3 md:p-5'>
             <h3 className="text-2xl font-bold font-italiana pb-2">Backend</h3>
              
-            <p className="text-slate-950  text-xl font-helvetica">.NET</p>
-            <p className="text-slate-950  text-xl font-helvetica">Entity Framework</p>
-            <p className="text-slate-950  text-xl font-helvetica">Relational & Non-Relational Databases</p>
+            <p className="text-slate-950  text-xl font-helvetica">C# .NET</p>
+            <p className="text-slate-950  text-xl font-helvetica">SQL-DB</p>
+            <p className="text-slate-950  text-xl font-helvetica">MongoDB</p>
         
             <p className='py-2 font-helvetica'>
               By integrating these skills with my frontend expertise, I deliver comprehensive web applications
@@ -51,7 +51,7 @@ function SkillsText() {
           
             <p className="text-slate-950  text-xl font-helvetica">Agile Scrum Methodology</p>
             <p className="text-slate-950  text-xl font-helvetica">Closed-Loop Communication</p>
-            <p className="text-slate-950  text-xl font-helvetica">My Social Personality</p>
+            <p className="text-slate-950  text-xl font-helvetica">Teamwork</p>
      
             <p className='py-2 font-helvetica'>I employ Agile Scrum Methodology
             to foster efficient collaboration and adaptability within the team.
