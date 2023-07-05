@@ -1,4 +1,4 @@
-import {AiFillGithub, AiFillFileText, AiFillRocket} from 'react-icons/ai'
+import {AiFillGithub, AiFillFileText, AiFillRocket, AiOutlineArrowRight} from 'react-icons/ai'
 import '../App.css'
 
 function PortfolioText() {
@@ -8,20 +8,20 @@ function PortfolioText() {
        <div className='flex flex-col text-center mx-4 my-10'>
        <h3 className='text-4xl md:text-5xl py-2 font-italiana text-slate-950 my-4'>My Portfolio</h3>
         <p className=' text-xl py-2 font-playfair text-slate-950 max-w-lg m-auto'>
-        This is a selection of my previous projects so far!
+        This is a selection of my projects this far!
         </p>
         </div>
 
-<div className='md:flex md:justify-center gap-10 mb-20 bg-slate-50'>
+<div className='md:flex md:justify-center gap-8 mb-20 bg-slate-50'>
 
 <div className='my-5 flex flex-col text-center bg-white p-3 md:p-5 max-w-xl'>
 
 <img src="public/tasty-tellus.png" alt="" className="mx-auto rounded-md mb-1"></img>
-<h4 className='text-2xl font-bold font-italiana pb-2'> 
+<h4 className='text-3xl font-bold font-italiana pb-2'> 
         Tasty Tellus
         </h4>
-        <p className='pt-4 font-playfair'>
-        Fullstack project with tools inculdingVue3, Entity Framework & SQL-Database
+        <p className='pt-4 font-playfair font-bold'>
+        Fullstack project with tools inculding Vue3, Entity Framework & SQL-Database.
         </p>
         <p className='pb-4 font-playfair'>
         This is the project that I am the most proud of. I built this meaningfull webpage to spread knowledge about Co2 emissions connected to the food we eat everyday.
@@ -39,6 +39,25 @@ function PortfolioText() {
         <div className='flex flex-row items-center justify-center'>
         <AiFillFileText className='text-gray-700 text-3xl'/>
         <a href="https://docs.google.com/document/d/1LF7lI6aYkdMgPpCgyCCC-2QDbkCPtCY4OnWd76K7als/edit?usp=sharing" target='_blank' className='font-playfair text-center hover:underline'>Technical Documentation- in swedish</a> 
+        </div>
+</div>
+
+<div className='my-5 flex flex-col text-center bg-white p-3 md:p-5 max-w-xl'>
+
+<img src="public/webbsortiment-img.png" alt="" className="mx-auto rounded-md mb-1"></img>
+<h4 className='text-3xl font-bold font-italiana pb-2 pt-2'> 
+        WebbSortiment
+        </h4>
+        <p className='pt-4 font-playfair font-bold'>
+        Frontend project with using Vue3 & TypeScript.
+        </p>
+        <p className='pb-4 font-playfair'>
+       As an intern at TietoEvry in 2023 I was responible for the rebuild of a website used in the healthcare sector. I collaborated with UX designers, backend developers and a costumer to give this tool for healthcare workers a new look, including better usability and accesability. 
+        </p>
+        <div className='flex flex-row justify-center gap-3'>
+       
+        <AiOutlineArrowRight className='text-gray-700 text-2xl'/>
+        <a href="https://webbsortiment.eu.ngrok.io/" target='_blank' className='font-bold font-playfair text-center hover:underline'>Check out WebbSortiment!</a> 
         </div>
 </div>
 
